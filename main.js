@@ -1,9 +1,9 @@
 $('.header-right a:last-child i').click(function(){
-    $('.hamburger-menu').show();
+    $('.hamburger-menu').addClass('active');
 });
 
 $('.hamburger-menu a:last-child i').click(function(){
-    $('.hamburger-menu').hide();
+    $('.hamburger-menu').removeClass('active');
 });
 
 
@@ -15,10 +15,10 @@ $('.hamburger-menu a:last-child i').click(function(){
 //
 // $('header a:last-child i').click(function(){
 //     if (check){
-//         $('.hamburger-menu').hide();
+//         $('.hamburger-menu').removeClass('active');
 //         check = false;
 //     } else {
-//         $('.hamburger-menu').show();
+//         $('.hamburger-menu').addClass('active');
 //         check = true;
 //     }
 // })
